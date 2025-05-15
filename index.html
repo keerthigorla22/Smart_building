@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEOPLE CENTRIC INFRASTRUCTURE</title>
+    <link rel="stylesheet" href="aes.css">
+    <script src="aes.js" defer></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+        }
+
+        header .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        header nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1rem;
+        }
+
+        header nav ul li {
+            margin: 0;
+        }
+
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .banner {
+            background: url('https://www.bimcommunity.com/files/images/userlib/Smart_Building1.jpg') no-repeat center center/cover;
+            color: #fff;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .banner-content {
+            background: #bdb7ae;
+            color: #333;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .banner-content h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .banner-content p {
+            font-size: 1.25rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .cta-button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 0.75rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 1rem;
+            display: inline-block;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #0056b3;
+        }
+
+        .section-padding {
+            padding: 4rem 2rem;
+            background-color: #fff;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 2rem;
+            color: #333;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .feature {
+            background: #f0f0f0;
+            padding: 1rem;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .feature img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+        }
+
+        .feature:hover {
+            transform: translateY(-5px);
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        form label {
+            font-weight: bold;
+            color: #333;
+        }
+
+        form input, form textarea {
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form button {
+            padding: 0.75rem;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #0056b3;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        .contact-info p {
+            margin: 0.5rem 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .social-media a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 0.5rem;
+        }
+
+        .social-media a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">PEOPLE CENTRIC INFRASTRUCTURE</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="banner">
+        <div class="banner-content">
+            <h1>Welcome to the Future of Sustainable Living</h1>
+            <p>Explore Our People Centric Infrastructure</p>
+            <a href="#features" class="cta-button">Learn More</a>
+        </div>
+    </section>
+
+    <section id="about" class="section-padding" style="background-color: #dfeaec;">
+        <h2>About Us</h2>
+        <p>Our mission is to create sustainable and innovative living spaces. Meet our team and learn about our journey.</p>
+    </section>
+
+    <section id="features" class="section-padding" style="background-color: #d3cacb;">
+        <h2>Features</h2>
+        <div class="features-grid">
+            <div class="feature">
+                <img src="https://www.huskyair.com/wp-content/uploads/2015/07/Zoning.jpg" alt="Dual Heating and Cooling System">
+                <h3>Dual Heating and Cooling System</h3>
+                <p>Efficient and sustainable climate control.</p>
+            </div>
+            <div class="feature">
+                <img src="https://i.pinimg.com/originals/ec/97/f9/ec97f9ac3d840fcbbe3f4b527184f169.jpg" alt="Pavilion">
+                <h3>Pavilion</h3>
+                <p>Relax and enjoy the view.</p>
+            </div>
+            <div class="feature">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.LIBWUw5lj4UWOU1AqUBPPwHaHg&pid=Api&P=0&h=180" alt="Solar Panels">
+                <h3>Solar Panels</h3>
+                <p>Harnessing the power of the sun.</p>
+            </div>
+            <div class="feature">
+                <img src="https://revamppanels.com/userfiles/Sunshades/Revamp-Panels-Architectural-Sunshades.jpg" alt="Sunshades">
+                <h3>Sunshades</h3>
+                <p>Reduce heat and glare while maintaining visibility.</p>
+            </div>
+            <div class="feature">
+                <img src="https://data.docslib.org/img/6083617/heat-recovery-ventilation-guide-for-multi-unit-residential-buildings.jpg" alt="Heat Recovery System">
+                <h3>Heat Recovery System</h3>
+                <p>Recover waste heat to improve energy efficiency.</p>
+            </div>
+            <div class="feature">
+                <img src="https://us.solarpanelsnetwork.com/blog/wp-content/uploads/2021/04/Solar-Water-Heater.jpg" alt="Solar Water Heaters">
+                <h3>Solar Water Heaters</h3>
+                <p>Energy-efficient water heating using solar power.</p>
+            </div>
+            <div class="feature">
+                <img src="https://ecologicalconcerns.com/wp-content/uploads/2014/03/Del-Monte-Water-Reuse-Concept.jpg" alt="Greywater Recycling System">
+                <h3>Greywater Recycling System</h3>
+                <p>Reuse greywater to conserve fresh water.</p>
+            </div>
+            <div class="feature">
+                <img src="https://i.pinimg.com/474x/f2/13/93/f213931784c05429441b147d85e5c5a8--living-walls-green-walls.jpg" alt="Vegetated Open Space">
+                <h3>Vegetated Open Space for Air Circulation</h3>
+                <p>Natural ventilation and cooling through greenery.</p>
+            </div>
+            <div class="feature">
+                <img src="https://bsesc.energy.gov/sites/default/files/styles/wide/public/HighPerformanceWindowsGlass_EnergyBasics.png?itok=UiL_tqd4" alt="High-Performance Windows">
+                <h3>High-Performance Windows & Reflective Siding</h3>
+                <p>Enhanced energy efficiency and comfort.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-padding" style="background-color: #e0f2f1;">
+        <h2>Contact Us</h2>
+        <form id="contact-form" action="/contact" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div class="contact-info">
+            <p>Email: info@friendlyinfra.com</p>
+            <p>Address: Sustainable Society, Green City</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 PEOPLE CENTRIC INFRASTRUCTURE</p>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>
